@@ -1,0 +1,129 @@
+body{
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    scroll-behavior: smooth;
+    color: #222222;
+}
+.nav-link.active{
+    border-bottom: 4px solid #94c93f
+}
+nav.navbar{
+    padding-top: 15px
+}
+header{
+    background: rgba(0, 0, 0, 0);
+    min-height: 80px;
+}
+.carousel{
+    /* min-height: calc(100vh - 80px); */
+    max-height: calc(100vh - 80px);
+    overflow: hidden;
+    background: #222222;
+}
+.carousel img{
+    /* min-height: 100vh;
+    max-height: 100vh; */
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+    /* margin-top: -80px; */
+    /* transform: scale(1.2,1.2); */
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    transform: scale(2,2);
+    opacity: 1
+}
+.blocked{
+    vertical-align: middle;
+    font-size: 20px;
+    margin: 30px auto;
+}
+.blocked>.row>h2,.blocked>.row>p{
+    text-align: center;
+    margin: 20px auto;
+    font-family: "Roboto Mono",monospace;
+}
+.blocked p,small,#nav3 ul li{
+    text-align: justify;
+}
+.green{
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    background-color: #94c93f;
+    margin: auto;
+}
+.green h5{
+    font-family: "Roboto Mono",monospace;
+}
+.green i.fas{
+    margin: 10px;
+    font-size: -webkit-xxx-large;
+}
+img.gif, small{
+    text-align: justify;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.green img,.green .col-sm-6{
+    text-align: justify;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+#imageGrid{
+    border: 2px solid white;
+    margin: 20px 0;
+}
+.green .col-sm-12{
+    margin: auto;
+}
+
+#gototop{
+    opacity: 0;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+.green>.blocked{
+    margin-top: 0
+}
+#team img{
+    display:block;
+    width: 70%;
+    border-radius: 50%;
+    margin: 10% auto;
+}
+#team h5{
+    text-align: center;
+}
+#team p{
+    text-align: justify;
+}
+#team hr{
+    width: 80%;
+    height: 2px
+}
+.cardDesc{
+    display: block;
+    vertical-align: middle;
+    margin:auto;
+}
+#team .row>.col-md-4{
+    display: block;
+    margin:auto;
+}
+.form-group label{
+    text-align: left;
+}
