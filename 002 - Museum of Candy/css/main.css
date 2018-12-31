@@ -1,0 +1,68 @@
+html,body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background: #222222;
+    color: white;
+}
+#topNavbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#topNavbar .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+#topNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+#topNavbar .nav-link{
+    color: white;
+}
+
+#topNavbar.scrolled{
+    background: #f498b8;
+    transition: background 1000ms;
+}
+
+.centerBlock{
+    text-align: center;
+    font-size: 1.125rem;
+}
+.centerBlock>h2{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.centerBlock span{
+    color: #ea1c2c;
+}
+
+.blue{
+    box-shadow: -2px 4px 4px rgba(131, 218, 238, 0.5),-4px 4px 8px rgba(131, 218, 238, 0.2);
+}
+.pink{
+    box-shadow: 2px 4px 4px rgba(241, 172, 191, 0.5),4px 4px 8px rgba(241, 172, 191, 0.2);
+}
+
+
+.candied{
+    color: #f498b8;
+}
+.candied i{
+    color: white;
+    /* font-size: 60px; */
+    margin: 5% auto;
+}
+.candied h2{
+    color: #ea1c2c;
+    font-size: 2rem;
+}
+section:not(:nth-of-type(1)){
+    margin-top: 5%;
+    max-width: 100vw;
+}
