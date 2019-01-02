@@ -1,0 +1,46 @@
+body{
+  background-color: #f0f0f0;
+  background-image: url("../images/bg-kitten.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Lato";
+  color: #f0f0f0;
+}
+#nb,.btn{
+  background: rgb(150, 120, 200);
+  border: 1px solid  rgba(150, 120, 200, 0.2);
+  box-shadow:  0px 4px 3px  rgba(0, 0, 0, 0.6),
+               0px 8px 13px  rgba(0, 0, 0, 0.4),
+               0px 18px 23px  rgba(0, 0, 0, 0.2);
+  color: #f0f0f0;
+}
+#nb a:not(.active){
+  color: White;
+}
+a:(.active) i{
+  color: black;
+}
+#content{
+  margin-top: 15%;
+  text-align: center;
+  text-shadow: 0px 4px 3px  rgba(0, 0, 0, 0.6),
+               0px 8px 13px  rgba(0, 0, 0, 0.4),
+               0px 18px 23px  rgba(0, 0, 0, 0.2);
+}
+.navbar-toggle{
+  background: #f0f0f0;
+}
+h1{
+  font-size: 4.5em;
+  font-weight: 700;
+}
+hr{
+  width: 40%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+}
+html{
+  height: 100%;
+}
